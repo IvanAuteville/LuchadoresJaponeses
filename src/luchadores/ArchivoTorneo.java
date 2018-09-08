@@ -5,7 +5,6 @@ import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.util.Locale;
 import java.util.Scanner;
 
 public class ArchivoTorneo
@@ -14,8 +13,6 @@ public class ArchivoTorneo
     {
 	// Archivo
 	Scanner sc = new Scanner(new File(path));
-	sc.useLocale(Locale.ENGLISH);
-	// ---------------------------
 
 	// Cantidad de luchadores a leer
 	int n = sc.nextInt();
